@@ -8,4 +8,4 @@ description = "Multi-line bi-colored 'pills' (GitLab-style scoped labels) for Ty
 repository = "https://github.com/adrfantini/typst-scoped-pills"
 keywords = ["label", "badge", "pill", "gitlab", "scoped-label"]
 compiler = "0.14.2"
-exclude = ["manual.typ"]
+exclude = ["manual.typ", "manual.pdf", "README.md"]
