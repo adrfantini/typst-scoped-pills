@@ -1,0 +1,11 @@
+[package]
+name = "scoped-pills"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Adriano Fantini"]
+license = "MIT"
+description = "Multi-line bi-colored 'pills' (GitLab-style scoped labels) for Typst."
+repository = "https://github.com/adrfantini/typst-scoped-pills"
+keywords = ["label", "badge", "pill", "gitlab", "scoped-label"]
+compiler = "0.14.2"
+exclude = ["manual.typ"]
