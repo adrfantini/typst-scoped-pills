@@ -82,6 +82,7 @@ Also works with mixed scripts and scales correctly with text size: \
   This is because the text is shifted to the left into the left cap,
   but the opposite cannot be done for the right cap without using `measure` or `place`:
   moving the right cap closer to the text would overlap and hide it.
+  As far as I know, using `place` would work but would break the pill's natural flow and ability to break across lines for the right side.
   The effect is more noticeable at larger radii.
   Contributions for a simple fix are very welcome!
 3. #pill(sym.arrow.l + "not vertically centered", "more space below " + sym.arrow.b)\ 
