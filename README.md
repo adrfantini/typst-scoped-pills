@@ -1,4 +1,4 @@
-# Scoped Pills
+# Pastiglie
 
 Multi-line bi-colored "pills" (GitLab-style scoped labels) for [Typst](https://typst.app).
 
@@ -11,7 +11,7 @@ line breaks.
 Import from the Typst package registry:
 
 ```typ
-#import "@preview/scoped-pills:0.1.0": pill
+#import "@preview/pastiglie:0.1.0": pill
 
 A #pill("priority")[critical] item should be done first.
 

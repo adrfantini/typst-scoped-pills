@@ -4,7 +4,7 @@
 #show link: underline
 
 #align(center)[
-  #text(size: 24pt, weight: "bold")[Scoped Pills] \
+  #text(size: 24pt, weight: "bold")[Pastiglie] \
   #v(0.5em)
   _A Typst package for creating compact, breakable, multi-line bi-colored pills._
 ]
@@ -31,7 +31,7 @@ Import the package and call `pill`, the only exported function:
   )
 
   ```typ
-  #import "@preview/scoped-pills:0.1.0": pill
+  #import "@preview/pastiglie:0.1.0": pill
 
   A #pill("priority")[critical] item should be done first.
 
@@ -106,7 +106,7 @@ Also works with mixed scripts and scales correctly with text size: \
 // in those doc-comments.
 #let module-docs = tidy.parse-module(
   read("lib.typ"),
-  name: "scoped-pills",
+  name: "pastiglie",
   scope: (pill: pill),
 )
 #tidy.show-module(
