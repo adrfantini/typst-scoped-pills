@@ -1,4 +1,4 @@
-# Pastiglie
+# Pillole
 
 Multi-line bi-colored "pills" (GitLab-style scoped labels) for [Typst](https://typst.app).
 
@@ -6,12 +6,14 @@ Compact, breakable two-part labels with a key/value structure, rounded
 end-caps, and a square-cornered, breakable middle that flows naturally across
 line breaks.
 
+The name "Pillole" is Italian for "pills", and is pronounced like "pill-oh-leh".
+
 ## Usage
 
 Import from the Typst package registry:
 
 ```typ
-#import "@preview/pastiglie:0.1.0": pill
+#import "@preview/Pillole:0.1.0": pill
 
 A #pill("priority")[critical] item should be done first.
 
